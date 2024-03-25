@@ -696,7 +696,7 @@ $btn-mb: 0.5rem;
   background: var(--sidebar-bg);
   */
   background: url('/assets/img/dark-plants.jpg');
-  background-size: 150% 100%;
+  background-size: 200% 100%;
   background-position: center;
 
   border-right: 1px solid var(--sidebar-border-color);
@@ -790,14 +790,16 @@ $btn-mb: 0.5rem;
 
       a.nav-link {
         @include pt-pb(0.6rem);
-
+        // 색상 추가함
+        color: rgba(220, 220, 220, 0.99);
         display: flex;
         align-items: center;
         border-radius: 0.75rem;
         font-weight: 600;
 
         &:hover {
-          background-color: var(--sidebar-hover-bg);
+          background-color:rgba(0, 255, 0, 0.4);
+          // background-color: var(--sidebar-hover-bg);
         }
 
         i {
@@ -814,8 +816,10 @@ $btn-mb: 0.5rem;
 
       &.active {
         .nav-link {
-          color: var(--sidebar-active-color);
-          background-color: var(--sidebar-hover-bg);
+          // color: var(--sidebar-active-color);
+          // background-color: var(--sidebar-hover-bg);
+          color: rgb(255, 255, 255);
+          background-color:rgba(255, 255, 255, 0.3);
 
           span {
             opacity: 1;
