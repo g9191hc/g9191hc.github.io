@@ -844,7 +844,8 @@ $btn-mb: 0.5rem;
       width: $btn-size;
       height: $btn-size;
       margin-bottom: $btn-mb; // multi line gap
-      border-radius: 50%;
+      // border-radius: 50%;
+      border-radius: 42%;
       color: var(--sidebar-btn-color);
       background-color: var(--sidebar-btn-bg);
       text-align: center;
