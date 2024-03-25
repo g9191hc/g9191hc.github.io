@@ -1,0 +1,11 @@
+{
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "assets/img/attachment",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "_data/"
+  ],
+  "newLinkFormat": "absolute"
+}
