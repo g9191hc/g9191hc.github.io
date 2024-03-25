@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-03-25-2. 리습으로 캐드명령어 사용 해 보기 (command).md",
+                "file": "_posts/2023-03-14-1.오토리습(Autolisp) 시작하기.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-03-25-2. 리습으로 캐드명령어 사용 해 보기 (command).md",
+                "file": "_posts/2023-03-14-1.오토리습(Autolisp) 시작하기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-03-25-2. 리습으로 캐드명령어 사용 해 보기 (command).md",
+                "file": "_posts/2023-03-14-1.오토리습(Autolisp) 시작하기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-03-25-2. 리습으로 캐드명령어 사용 해 보기 (command).md"
+                "file": "_posts/2023-03-14-1.오토리습(Autolisp) 시작하기.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "7115a01d30f81d6d",
   "lastOpenFiles": [
+    "_posts/2023-03-25-2. 리습으로 캐드명령어 사용 해 보기 (command).md",
+    "_posts/2023-03-14-1.오토리습(Autolisp) 시작하기.md",
     "_site/assets/css/jekyll-theme-chirpy.css.map",
     "_site/assets/img/attachment/웹 스크롤 헤더핀.gif",
     "assets/img/attachment/웹 스크롤 헤더핀.gif",
@@ -156,8 +158,6 @@
     "_site/assets/img/attachment/2. 리습으로 캐드명령어 사용 해 보기-1.png",
     "_site/assets/img/attachment",
     "assets/img/attachment/2. 리습으로 캐드명령어 사용 해 보기-1.png",
-    "_posts/2023-03-14-1.오토리습(Autolisp) 시작하기.md",
-    "_posts/2023-03-25-2. 리습으로 캐드명령어 사용 해 보기 (command).md",
     "assets/img/attachment",
     "_site/posts/2.-리습으로-캐드명령어-사용-해-보기-(command)/index.html",
     "_site/posts/2.-리습으로-캐드명령어-사용-해-보기-(command)",
@@ -166,7 +166,6 @@
     "_site/posts/2023-03-25-2.-리습으로-캐드명령어-사용-해-보기-(command)/index.html",
     "_site/posts/2023-03-25-2.-리습으로-캐드명령어-사용-해-보기-(command)",
     "_site/posts/1.오토리습(Autolisp)-시작하기/index.html",
-    "_site/posts/1.오토리습(Autolisp)-시작하기",
     "_posts/autolisp/2023-03-25-test.md",
     "_site/assets/inbox/Pasted image 20240325134447.png",
     "assets/inbox/Pasted image 20240325134447.png",
