@@ -3,9 +3,9 @@
 # ----- Commons label -----
 
 layout:
-  post: 포스트
-  category: 카테고리
-  tag: 태그
+  post: 포스트(Post)
+  category: 카테고리(Category)
+  tag: 태그(Tag)
 
 # The tabs of sidebar
 tabs:
@@ -18,14 +18,14 @@ tabs:
 
 # the text displayed in the search bar & search results
 search:
-  hint: 검색
-  cancel: 취소
-  no_results: 검색 결과가 없습니다.
+  hint: 검색(search)
+  cancel: 취소(Cancel)
+  no_results: 검색 결과가 없습니다.(Oops! No results found.)
 
 panel:
-  lastmod: 최근 업데이트
-  trending_tags: 인기 태그
-  toc: 바로가기
+  lastmod: 최근 업데이트(Recently Updated)
+  trending_tags: 인기 태그(Trending Tags)
+  toc: 바로가기(Contents)
 
 #  The liquid date format › http://strftime.net/
 date_format:
@@ -38,7 +38,7 @@ date_format:
 copyright:
   # Shown at the bottom of the post
   license:
-    template: 이 글은 저작권자의 :LICENSE_NAME 라이센스를 따릅니다.
+    # template: 이 글은 저작권자의 :LICENSE_NAME 라이센스를 따릅니다.
     name: CC BY 4.0
     link: https://creativecommons.org/licenses/by/4.0/
 
@@ -51,33 +51,33 @@ copyright:
 #meta: Powered by :PLATFORM with :THEME theme
 
 not_found:
-  statment: 해당 URL은 존재하지 않습니다.
+  statment: 해당 URL은 존재하지 않습니다.(Sorry, we've misplaced that URL or it's pointing to something that doesn't exist.)
 
 notification:
-  update_found: 새 버전의 콘텐츠를 사용할 수 있습니다.
-  update: 업데이트
+  update_found: 새 버전의 콘텐츠를 사용할 수 있습니다.(A new version of content is available.)
+  update: 업데이트(Update)
 
 # ----- Posts related labels -----
 
 post:
   written_by: By
-  posted: 게시
-  updated: 업데이트
-  words: 단어
+  posted: 게시(Posted)
+  updated: 업데이트(Updated)
+  words: 단어(words)
   pageview_measure: 조회
   read_time:
-    unit: 분
-    prompt: 읽는 시간
-  relate_posts: 관련된 글
-  share: 공유하기
+    unit: 분(min)
+    # prompt: 
+  relate_posts: 관련된 글(Further Reading)
+  share: 공유하기(Share)
   button:
-    next: 다음 글
-    previous: 이전 글
+    next: 다음 글(Newer)
+    previous: 이전 글(Older)
     copy_code:
-      succeed: 복사되었습니다!
+      succeed: 복사되었습니다!(Copied!)
     share_link:
-      title: 링크 복사하기
-      succeed: 링크가 복사되었습니다!
+      title: 링크 복사하기(Copy link)
+      succeed: 링크가 복사되었습니다!(Link copied successfully!)
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
@@ -88,5 +88,5 @@ df:
 
 # categories page
 categories:
-  category_measure: 카테고리
-  post_measure: 포스트
+  category_measure: 카테고리(Categories)
+  post_measure: 포스트(Posts)
