@@ -20,6 +20,24 @@
             }
           }
         ]
+      },
+      {
+        "id": "08d8d6b2886bcc2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cef84d51044d310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_posts/autolisp/오토리습배우기/2023-03-14-1.오토리습(Autolisp) 시작하기.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,6 +166,8 @@
   },
   "active": "7cc9f96160743627",
   "lastOpenFiles": [
+    "_posts/autolisp/오토리습배우기/2023-03-14-1.오토리습(Autolisp) 시작하기.md",
+    "README.md",
     "_site/assets/img/attachment/README-3.png",
     "_site/assets/img/attachment/Pasted image 20240326125257.png",
     "assets/img/attachment/README-3.png",
@@ -158,8 +178,6 @@
     "_site/assets/img/attachment/Pasted image 20240326125204.png",
     "assets/img/attachment/README-1.png",
     "_site/assets/img/attachment/README.png",
-    "assets/img/attachment/README.png",
-    "README.md",
     "_posts/오토리습 배우기/2023-03-25-2. 리습으로 캐드명령어 사용 해 보기 (command).md",
     "_posts/autolisp_learning/2023-03-25-2. 리습으로 캐드명령어 사용 해 보기 (command).md",
     "_posts/autolisp_learning/2023-03-14-1.오토리습(Autolisp) 시작하기.md",

@@ -27,6 +27,44 @@ link: https://chirpy.cotes.page/
 - 예시) 첨부하고자 하는 유튜브 영상의 주소가`https://www.youtube.com/watch?v=dsM9IJMDe3k`일 경우
 	- `{% include embed/youtube.html id='dsM9IJMDe3k' %}`
 
+### 이미지 삽입
+#### 기본값(폭 100%)
+```
+![](__이미지주소__)
+````
+- 예) `![](assets/img/gocoder_logo.png)`
+![](assets/img/gocoder_logo.png)
+
+#### 폭 75%, 폭 50%(가운데정렬)
+- 폭 75%
+```
+![](__이미지주소__){:.w-75}
+````
+- 폭 50%
+```
+![](__이미지주소__){:.w-50}
+````
+- 예) `![](assets/img/gocoder_logo.png){: .w-75}` <- 폭 75%로 가운데정렬
+
+#### 왼쪽정렬
+```
+![](__이미지주소__){: .normal}
+````
+- 예) `![](assets/img/gocoder_logo.png){: .w-75 .normal}` <- 폭 75%로 왼쪽정렬
+
+#### 왼쪽, 오른쪽에 띄우기
+- 띄운 이미지 반대쪽에 글자가 입력 됨
+- 왼쪽에 띄우기
+```
+![](__이미지주소__){: .left}
+````
+- 오른쪽에 띄우기
+```
+![](__이미지주소__){: .right}
+````
+- 예) `![](assets/img/gocoder_logo.png){: .w-50 .left}` <- 폭 50%로 왼쪽에 띄움
+
+
 ### prompt박스 삽입
 #### 특이사항
 - 여러 줄로 작성해도 한 줄로 들어가게 됩니다.
@@ -35,33 +73,35 @@ link: https://chirpy.cotes.page/
 ![](assets/img/attachment/README.png)
 ```
 > 내용
-{: .prompt-info }
+{: .prompt-info}
 ```
 
 #### tip
 ![](assets/img/attachment/README-1.png)
 ```
 > 내용
-{: .prompt-tip }
+{: .prompt-tip}
 ```
 
 #### warning
 ![](assets/img/attachment/README-2.png)
 ```
 > 
-{: .prompt-warning }
+{: .prompt-warning}
 ```
 
 #### danger
 ![](assets/img/attachment/README-3.png)
 ```
 > 내용
-{: .prompt-danger }
+{: .prompt-danger}
 ```
 
 
 # 깃헙배포시 유의사항
 ### 포스트 디렉터리 관리
-- `_posts`디렉터리 내부의 디렉터리명은 가급적 영어
-- chirpy는 `_posts` 디렉터리 내부의 모든 글들을 읽어오므로, 작성자는 `_posts`디렉터리 내부 구조를 원하는데로 만들 수 있습니다.
-- 다만 디렉터리 명이 한글이면서 띄어쓰기가 존재하면, Github Action으로 배포까지는 문제가 없는데 제대로 정적사이트가 렌더링 되지 않는 문제가 있습니다.
+- `_posts`디렉터리 내부의 디렉터리명은 **영어**사용 또는 **띄어쓰기 금지**
+	- chirpy는 `_posts` 디렉터리 내부의 모든 글들을 읽어오므로, 작성자는 `_posts`디렉터리 내부 구조를 원하는데로 만들 수 있습니다.
+		- 물론 실제 사이트에 반영되는 계층구조는 포스팅 `frontmatter`의 `categories`속성 순서를 따릅니다.
+	- 다만 디렉터리 명이 한글이면서 띄어쓰기가 존재하면, Github Action으로 배포까지는 문제가 없는데 제대로 정적사이트가 렌더링 되지 않는 문제가 있습니다.(20240326 기준)
+	- 이런 문제를 사전에 방지하려면, 디렉터리명을 아예 영어로 구성하던지 아니면 띄어쓰기 대신 `_`(under score)를 사용하는 것이 좋습니다.
