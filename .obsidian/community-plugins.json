@@ -2,5 +2,8 @@
   "obsidian-image-toolkit",
   "oz-image-plugin",
   "obsidian-paste-image-rename",
-  "terminal"
+  "terminal",
+  "text-snippets-obsidian",
+  "editing-toolbar",
+  "url-into-selection"
 ]

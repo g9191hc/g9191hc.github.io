@@ -7,5 +7,6 @@
   "userIgnoreFilters": [
     "_data/"
   ],
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "newFileLocation": "current"
 }

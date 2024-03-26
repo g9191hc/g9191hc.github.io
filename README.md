@@ -1,81 +1,67 @@
-<div align="center">
+---
+link: https://chirpy.cotes.page/
+---
+# About
+이 블로그는 `Jekyll`(정적사이트 생성 프레임워크)의 `Chirpy`테마를 적용 해 만들었습니다.
+기존 마크다운 형식의 글을 Chirpy를 통해 게시함에 있어서,
+적용 되지 않는 마크다운 및 마크업 문법, Chirpy에서 지원하는 추가적인 문법들,
+그리고 Chirpy를 사용함에 있어서 주의사항 등을 정리 해 두려고 합니다.
+(저의 경우 마크다운 에디터로 `옵시디언`을 사용하고 있으며,
+내용 상 실제 마크다운 문법이 아닌 <font color="#ff0000">옵시디언에서만 적용</font>되는 문법이 포함되어 있을 수 있습니다.)
 
-  # Chirpy Jekyll Theme
+# 포스팅 미지원 & 지원 사항
+## Chirpy 미지원
+### 마크다운 미지원
+- 헤더5`#####`,헤더 6`######`이 적용되지 않습니다.
+-  디바이더`---`가 적용되지 않습니다.
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
+### 마크업 미지원
+-  iframe을 통한 영상삽입이 지원되지 않습니다.
 
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?color=brightgreen)][gem]&nbsp;
-  [![CI](https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml/badge.svg?branch=master&event=push)][ci]&nbsp;
-  [![Codacy Badge](https://app.codacy.com/project/badge/Grade/4e556876a3c54d5e8f2d2857c4f43894)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy.svg)][license]&nbsp;
-  [![996.icu](https://img.shields.io/badge/link-996.icu-%23FF4D5B.svg)](https://996.icu)
+## Chirpy 지원
+### 유튜브 영상삽입
+```
+{% include embed/youtube.html id='__영상ID__' %}
+```
+-  유튜브 영상주소(`https://www.youtube.com/watch?v=__영상ID__`) 중 `__영상ID__`부분을 위의 `__영상ID__`에 입력합니다.
+- 예시) 첨부하고자 하는 유튜브 영상의 주소가`https://www.youtube.com/watch?v=dsM9IJMDe3k`일 경우
+	- `{% include embed/youtube.html id='dsM9IJMDe3k' %}`
 
-  [**Live Demo** →][demo]
+### prompt박스 삽입
+#### 특이사항
+- 여러 줄로 작성해도 한 줄로 들어가게 됩니다.
+- 내부에서 헤더 작성시 이상해지므로 자제합니다.
+#### info
+![](assets/img/attachment/README.png)
+```
+> 내용
+{: .prompt-info }
+```
 
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+#### tip
+![](assets/img/attachment/README-1.png)
+```
+> 내용
+{: .prompt-tip }
+```
 
-</div>
+#### warning
+![](assets/img/attachment/README-2.png)
+```
+> 
+{: .prompt-warning }
+```
 
-## Features
+#### danger
+![](assets/img/attachment/README-3.png)
+```
+> 내용
+{: .prompt-danger }
+```
 
-- Dark / Light Theme Mode
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark / Light Mode Images
-- Embed Videos
-- Disqus / Giscus / Utterances Comments
-- Built-in Search
-- Atom Feeds
-- PWA
-- Google Analytics / GoatCounter
-- SEO & Performance Optimization
 
-## Documentation
-
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
-
-## Contributing
-
-Contributions (_pull requests_, _issues_, and _discussions_) are what make the open-source community such an amazing place
-to learn, inspire, and create. Any contributions you make are greatly appreciated.
-For details, see the "[Contributing Guidelines][contribute-guide]".
-
-## Credits
-
-### Contributors
-
-Thanks to [all the contributors][contributors] involved in the development of the project!
-
-[![all-contributors](https://contrib.rocks/image?repo=cotes2020/jekyll-theme-chirpy&columns=16)][contributors]
-<sub> —— Made with [contrib.rocks](https://contrib.rocks)</sub>
-
-### Third-Party Assets
-
-This project is built on the [Jekyll][jekyllrb] ecosystem and some [great libraries][lib], and is developed using [VS Code][vscode] as well as tools provided by [JetBrains][jetbrains] under a non-commercial open-source software license.
-
-The avatar and favicon for the project's website are from [ClipartMAX][clipartmax].
-
-## License
-
-This project is published under [MIT License][license].
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[ci]: https://github.com/cotes2020/jekyll-theme-chirpy/actions/workflows/ci.yml?query=event%3Apush+branch%3Amaster
-[codacy]: https://app.codacy.com/gh/cotes2020/jekyll-theme-chirpy/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade
-[license]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/LICENSE
-[jekyllrb]: https://jekyllrb.com/
-[clipartmax]: https://www.clipartmax.com/middle/m2i8b1m2K9Z5m2K9_ant-clipart-childrens-ant-cute/
-[demo]: https://cotes2020.github.io/chirpy-demo/
-[wiki]: https://github.com/cotes2020/jekyll-theme-chirpy/wiki
-[contribute-guide]: https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/docs/CONTRIBUTING.md
-[contributors]: https://github.com/cotes2020/jekyll-theme-chirpy/graphs/contributors
-[lib]: https://github.com/cotes2020/chirpy-static-assets
-[vscode]: https://code.visualstudio.com/
-[jetbrains]: https://www.jetbrains.com/?from=jekyll-theme-chirpy
+# 깃헙배포시 유의사항
+### 포스트 디렉터리 관리
+- `_posts`디렉터리 내부의 디렉터리명은 가급적 영어
+- chirpy는 `_posts` 디렉터리 내부의 모든 글들을 읽어오므로, 작성자는 `_posts`디렉터리 내부 구조를 원하는데로 만들 수 있습니다.
+- 다만 디렉터리 명이 한글이면서 띄어쓰기가 존재하면, Github Action으로 배포까지는 문제가 없는데 제대로 정적사이트가 렌더링 되지 않는 문제가 있습니다.
